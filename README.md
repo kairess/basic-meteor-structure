@@ -1,5 +1,6 @@
 Basic structure for Meteor
 
+<pre>
 + client (클라이언트에서만 실행되는 폴더)
 |-+ helpers
 | |- config.coffee (전역 설정 파일 - Accounts config 등)
@@ -34,3 +35,4 @@ Basic structure for Meteor
 + server (서버에서만 실행되는 폴더)
 |- fixtures.coffee (더미 데이터)
 |- publications.coffee (발행관련 파일)
+</pre>
